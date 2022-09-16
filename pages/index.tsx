@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <button className='mt-5 bg-blue-500 text-white p-3 text-center rounded-xl w-1/2 mx-auto hover:bg-teal-500 hover:text-black active:bg-yellow-500 focus:text-red-500'>Checkout</button>
         </div>
       </div>
-      <div className='bg-white overflow-hidden rounded-2xl shadow-xl'>
+      <div className='bg-white overflow-hidden rounded-2xl shadow-xl group'>
         <div className='bg-blue-500 p-6 pb-14'>
           <span className='text-white text-2xl'>Profile</span>
         </div>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               <span className='text-sm text-gray-500'>Orders</span>
               <span className='font-medium'>$340</span>
             </div>
-            <div className='h-24 w-24 bg-red-500 rounded-full' />
+            <div className='h-24 w-24 bg-zinc-300 rounded-full group-hover:bg-yellow-300 transition-colors' />
             <div className='flex flex-col items-center'>
               <span className='text-sm text-gray-500'>Spent</span>
               <span className='font-medium'>$340</span>
