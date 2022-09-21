@@ -3,11 +3,11 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
   return (
     <div className='bg-slate-400 xl:place-content-center min-h-screen py-20 px-10 grid gap-10 lg:grid-cols-2 xl:grid-cols-3 space-y-5'>
-      <div className='bg-white p-6 rounded-3xl shadow-xl flex flex-col justify-around'>
-        <span className='font-semibold text-3xl'>Select Item</span>
+      <div className='bg-white dark:bg-black p-6 rounded-3xl shadow-xl flex flex-col justify-around'>
+        <span className='font-semibold text-3xl dark:text-white'>Select Item</span>
         <ul>
           {[1,2].map((i) => (
-          <div key={i} className='flex justify-between my-2'>
+          <div key={i} className='flex justify-between my-2 dark:text-gray-200'>
               <span className='text-gray-500'>Grey Chair</span>
               <span className='font-semibold'>$19</span>
           </div>
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <span className='font-semibold'>$19</span>
         </div>
         <div className='flex justify-center'>
-          <button className='mt-5 bg-blue-500 text-white p-3 text-center rounded-xl w-1/2 mx-auto hover:bg-teal-500 hover:text-black active:bg-yellow-500 focus:text-red-500'>Checkout</button>
+          <button className='mt-5 bg-blue-500 text-white p-3 dark:bg-black dark:border-white dark:border-2 dark:hover:bg-white dark:hover:text-gray-700 text-center rounded-xl w-1/2 mx-auto hover:bg-teal-500 hover:text-black active:bg-yellow-500 focus:text-red-500'>Checkout</button>
         </div>
       </div>
       <div className='bg-white overflow-hidden rounded-2xl shadow-xl group'>
