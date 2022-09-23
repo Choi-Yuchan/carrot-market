@@ -8,13 +8,13 @@ const Home: NextPage = () => {
         <ul>
           {[1,2].map((i) => (
           <div key={i} className='flex justify-between my-2 dark:text-gray-200'>
-              <span className='text-gray-500'>Grey Chair</span>
+              <span className='text-gray-500 text-[17px]'>Grey Chair</span>
               <span className='font-semibold'>$19</span>
           </div>
           ))}
         </ul>
         
-        <div className='flex justify-between mt-2 pt-2 border-t-2 border-dashed'>
+        <div className='flex dark:text-white justify-between mt-2 pt-2 border-t-2 border-dashed'>
           <span>Total</span>
           <span className='font-semibold'>$19</span>
         </div>
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className='bg-white overflow-hidden rounded-2xl shadow-xl group'>
-        <div className='bg-blue-500 p-6 xl:pb-20 pb-14 landscape:bg-indigo-400'>
+        <div className='bg-blue-500 dark:bg-[#003333] p-6 xl:pb-20 pb-14 landscape:bg-indigo-400'>
           <span className='text-white text-2xl'>Profile</span>
         </div>
         <div className='rounded-3xl p-6 relative -top-5 bg-white'>
