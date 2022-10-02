@@ -33,7 +33,7 @@ export default function Enter() {
         </div>
 
         <form className="flex flex-col mt-8 px-3">
-          <label className="text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="text-sm font-medium text-gray-700">
             {method === "email" ? "Email address" : null}
             {method === "phone" ? "Phone number" : null}
           </label>
