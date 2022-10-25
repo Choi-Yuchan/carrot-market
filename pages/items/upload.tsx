@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 
 const Upload: NextPage = () => {
     return (
-        <div className="px-4 py-16">
+        <div className="px-4 space-y-5 py-16">
             <div>
                 <label className="texxt-gray-600 mb-3 flex h-48 w-full items-center justify-center rounded-md border-2 border-dashed border-gray-300 hover:border-orange-500 hover:text-orange-500">
                     <svg
